@@ -18,15 +18,6 @@ public class Stark {
         // TODO code application logic here
   
         
-        variavel val = new viriavel(); 
-        
-        
-       
-        
-        
-        
-        
-    
      System.out.println("Calculo");
      
      System.out.println("|");
@@ -54,13 +45,35 @@ public class Stark {
     System.out.println("=");
     
     
-    System.out.printf( "Soma da variavel a k o b r = \\d \n", (val.a + val.b));
-    if(ListNum[0] + ListNum[6] == resp) (
+    System.out.println( result );
+   
             
-            System.out.print("resposta correta " + (ListNum[6] - ListNum[0]))
+                                  
+    System.out.println("Teste");
+    
+    
+    int x = 1; 
+        int y = 2; 
+        
+        if (x == y)
+        {
             
-                                   );
-     
+            x = 5; 
+           
+            y = x + 1; 
+   
+        }
+        else 
+        { 
+                 x = y; 
+                 
+        }
+    
+                System.out.println(x + " " + y);
+    
+    
+    
+    
     
     
     
