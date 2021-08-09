@@ -5,6 +5,8 @@
  */
 package stark;
 
+import java.util.Scanner;
+
 /**
  *
  * @author guilherme.schiochet
@@ -73,10 +75,83 @@ public class Stark {
     
     
     
-    
-    
-    
-    
+    System.out.println(".");
+    System.out.println(".");
+System.out.println(".");
+System.out.println(".");    
+      
+   
+
+
+for( int i = 0; i <=10000; i--)
+    {
+        System.out.println();
     }
     
-}
+         
+int h = 3; 
+    do { 
+        System.out.println(a);
+        h++;
+     
+    } while(h == 6);
+
+
+
+
+    
+    
+    int n = 6;
+        Scanner input = new Scanner (System.in);
+        System.out.println("informe dados : ");
+        a = input.nextInt();
+        System.out.println("informação inserida é " + a);
+        
+      
+    switch(n)
+    {
+        case 1:
+        System.out.println("indormações inserida é 2");
+        
+        case 2:
+        System.out.println("indormações inserida é 2");
+        
+        case 3:
+        System.out.println("indormações inserida é 2");
+        
+        break;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                  }
+    
+    
+    
+    
+    
+    
+
+            }
+    
+     }
