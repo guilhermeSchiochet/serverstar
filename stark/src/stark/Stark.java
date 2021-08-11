@@ -98,10 +98,7 @@ int h = 3;
 
 
 
-
-    
-    
-    int n = 6;
+int n = 6;
         Scanner input = new Scanner (System.in);
         System.out.println("informe dados : ");
         a = input.nextInt();
@@ -144,6 +141,9 @@ int h = 3;
     
     
     
+    
+    
+    
                   }
     
     
@@ -154,4 +154,4 @@ int h = 3;
 
             }
     
-     }
+     
