@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package calculadora007;
-
+import javax.swing.*;
 /**
  *
  * @author guilherme.schiochet
@@ -17,11 +17,25 @@ public class Calculadora007 {
     public static void main(String[] args) {
         
         
-        int alv = 0;
-        
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Digite um valor alvo: ");
-        alv = sc.nextInt();
+        String numA = JOptionPane.showInputDialog(null, "Digite o primeiro número:");
+      String numB = JOptionPane.showInputDialog(null, "Digite o segundo número:");
+      //transfomando os Strings em Inteiros
+      double a = Double.parseDouble(numA);
+      double b = Double.parseDouble(numB);
+      //calculando
+      double soma = a + b;
+      double sub = a - b;
+      double mult = a * b;
+      double div = a / b;
+      //mostrando o resultado das quatro operações básicas
+      JOptionPane.showMessageDialog(null,
+            "Soma: " + soma + "\n" +
+            "Subtração: " + sub + "\n" +
+            "Multiplicação: " + mult + "\n" +
+            "Divisão: " + div
+      );
+   }
+}
         
                 
         
@@ -29,6 +43,6 @@ public class Calculadora007 {
         
         
         
-    }
     
-}
+    
+
