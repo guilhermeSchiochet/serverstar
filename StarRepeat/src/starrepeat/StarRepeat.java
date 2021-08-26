@@ -19,38 +19,22 @@ public class StarRepeat {
         // TODO code application logic here
   
     
-    
-    
     System.out.println("O Computador");
     
-    
     int i = 0; 
-    
     
     while (i < 3)
     {
           System.out.println("Ou O programdor ");
     }
-        
-    
-    
-    
+     
      int a = 0; 
     while(a == 6) 
     { 
         System.out.println(a);
         a++;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     int n = 6;
         Scanner input = new Scanner (System.in);
         System.out.println("informe dados : ");
@@ -71,63 +55,9 @@ public class StarRepeat {
         
         break;
     
-    
-    
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 }
     
